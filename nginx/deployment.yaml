@@ -29,7 +29,7 @@ spec:
   selector:
     app: nginx
   ports:
-    - protocol: TCP
+    - protocol: http
       port: 80
       targetPort: 80
-      nodePort: 30100
+      nodePort: 30080
